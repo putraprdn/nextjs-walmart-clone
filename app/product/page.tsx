@@ -105,6 +105,8 @@ async function ProductPage({ searchParams: { url } }: Props) {
 					{product?.content?.currency} {product.content.price}
 				</p>
 
+                <AddToCard product={product} />
+
 				<hr />
 
 				<h3 className="font-bold text-xl pt-10">Specifications</h3>
